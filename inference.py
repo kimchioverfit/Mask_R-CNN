@@ -5,8 +5,7 @@ from PIL import Image
 import cv2
 import torch
 from torchvision.transforms import functional as F
-
-from train_maskrcnn import get_model  # 동일한 헤더 구조를 위해 재사용
+from train_mask_rcnn import get_model  # 동일한 헤더 구조를 위해 재사용
 
 
 @torch.no_grad()
