@@ -1,6 +1,6 @@
-# 📐 Compressed Ball Instance Segmentation & Diameter Measurement
+# 📐 Target object Instance Segmentation & Diameter Measurement
 
-This project implements an **instance segmentation–based inference pipeline** for detecting **compressed balls** in images and accurately measuring their **diameters** using a trained **Mask R-CNN** model.
+This project implements an **instance segmentation–based inference pipeline** for detecting **Specific object** in images and accurately measuring their **diameters** using a trained **Mask R-CNN** model.
 
 The system is designed for **industrial inspection and measurement scenarios**, where pixel-level segmentation results are converted into **physically meaningful measurements (μm)** within a valid **Region of Interest (ROI)**.
 
